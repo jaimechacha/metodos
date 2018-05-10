@@ -1,0 +1,20 @@
+clear
+format short;
+a=input('Introduzca el valor de a');
+b=input('Introduzca el valor de b');
+cont=input('Introduzca el número de iteraciones');
+for k=1:1:cont
+='editor_indent'>c=(a+b)/2;
+e=abs((b-a)/2);
+A(k,:)=[k a b c f(c) e];
+if f(a)*f(c)<0
+='editor_indent'>b=c;
+else
+='editor_indent'>a=c;
+end
+end
+fprintf('\n k a b c f(c) error \n')
+disp(A)
+fprintf('Solución: c='), disp(c)
+fprintf('f(c)='), disp(f(c))
+fprintf('error'), disp(e)
